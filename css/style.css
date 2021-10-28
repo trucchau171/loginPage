@@ -21,12 +21,15 @@ body {
     margin-bottom: 16px !important;
 }
 
+
+
+
 .form-header {
     text-align: center;  
     color: #277582;  
-    margin: 32px;  
     text-transform: uppercase;
     font-size: 32px;
+    padding: 28px 0;
 }
 
 #login-container {
@@ -36,6 +39,16 @@ body {
     padding: 50px 75px;;  
     background: #1c09338f;  
     border-radius: 15px ;
+}
+
+@media (max-width: 760px) {
+    .form-header {
+        font-size: 28px;
+    }
+    #login-container {
+        width: 380px;
+        padding: 50px 65px;
+    }
 }
 
 #login-container .form-label {
@@ -172,4 +185,6 @@ form {
     transform: scale(1.75);
     opacity: 0;
   }
+
+
   
