@@ -35,7 +35,6 @@ body {
 #login-container {
     width: 460px;
     margin: auto;  
-    /* margin: 20 0 0 450px;   */
     padding: 50px 75px;;  
     background: #1c09338f;  
     border-radius: 15px ;
@@ -45,9 +44,10 @@ body {
     .form-header {
         font-size: 28px;
     }
+
     #login-container {
-        width: 380px;
-        padding: 50px 65px;
+        width: 300px;
+        padding: 42px 50px;
     }
 }
 
@@ -55,11 +55,6 @@ body {
     display: block;
 }
 
-form {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-}
 
 .input-form {
     position: relative;
